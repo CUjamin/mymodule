@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author cu-jamin
+%%% @copyright (C) 2017, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 24. 二月 2017 上午10:43
+%%%-------------------------------------------------------------------
+{application, mymodule, [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {mymodule, []}},
+  {env, []}
+]}.

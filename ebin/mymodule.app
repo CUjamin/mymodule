@@ -1,0 +1,9 @@
+{application,mymodule,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{mymodule,[]}},
+              {env,[]},
+              {modules,[ejabberd_config,gen_mod,kafkaclient,mod_mam,mod_mam2,
+                        mod_muc,mod_muc_room,mymodule,mymodule2]}]}.
